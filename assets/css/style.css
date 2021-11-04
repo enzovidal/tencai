@@ -1,0 +1,66 @@
+:root {
+  --green: #003333;
+  --white: #fff;
+  --light-green: #00e4a0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+}
+
+.bg-menu {
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.tencai-hero {
+  background-image: url(../img/bg-hero-2-tencai.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 40rem;
+  position: fixed;
+  color: var(--white);
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.tencai-text {
+  position: relative;
+  z-index: 2;
+  margin-top: 5rem;
+}
+
+.subtitulo {
+  font-size: .8em;
+  font-weight: 400;
+}
+
+.padding-body {
+  padding-top: 10rem;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .7);
+  z-index: 1;
+}
+
+.sidra {
+  position: absolute;
+  top: -3rem;
+  right: 0;
+}
+
+.bg-par {
+  background-color: #fafaed;
+}
